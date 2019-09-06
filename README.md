@@ -11,9 +11,8 @@ To run this code, you will need:
 Is simple and easy to run this code. You just need to follow few steps that are listed bellow:
 
 1. Clone/Download this repo to your PC.
-2. If you do not have Python 3.7.0, download it from [Python's website](https://www.python.org/).
-3. Open the project's folder in your IDE (my personal choice is [PyCharm](https://www.jetbrains.com/pycharm/)).
-4. Set Python 3.7.0 as the project's interpreter.
+3. Open the project's folder in your IDE (my personal choice is [CLion](https://www.jetbrains.com/clion/)).
+4. Compile the code. Dont forget to use the `–fopenmp` option to enable OpenMP functions.
 
 You are ready to go now :+1:!
 
