@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/NumericCalc/MonteCarlo.h
+vector
+-
+
+C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/main.cpp
+iostream
+-
+vector
+-
+cmath
+-
+NumericCalc/MonteCarlo.h
+C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/NumericCalc/MonteCarlo.h
+chrono
+-
+
