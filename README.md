@@ -4,7 +4,7 @@ This repository contains some Python code developed for the Scientific Programmi
 
 ## Pre-requisites
 To run this code, you will need:
-* A Python 3.7.0 interpreter.
+* A C++11 compiler.
 * A Unix based operating system like Linux or OS X.
 
 ## How to use
