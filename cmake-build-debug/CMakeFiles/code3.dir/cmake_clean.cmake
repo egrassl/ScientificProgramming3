@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/code3.dir/main.cpp.obj"
-  "CMakeFiles/code3.dir/NumericCalc/MonteCarlo.cpp.obj"
+  "CMakeFiles/code3.dir/main.cpp.o"
+  "CMakeFiles/code3.dir/NumericCalc/MonteCarlo.cpp.o"
   "code3.pdb"
-  "code3.exe"
-  "code3.exe.manifest"
-  "code3.lib"
+  "code3"
 )
 
 # Per-language clean rules from dependency scanning.

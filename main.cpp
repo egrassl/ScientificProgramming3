@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "NumericCalc/MonteCarlo.h"
+#include "NumericCalc/MonteCarlo.hpp"
 #include <chrono>
 
 double Toroid(std::vector<double> values){
@@ -13,11 +13,11 @@ double Toroid(std::vector<double> values){
         return 0.0;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     // Arrange
     std::vector<double> initial{1.0, -3.0, -1.0};
     std::vector<double> final{4.0, 4.0, 1.0};
-    int n = 10000000;
+    int n = std::atoi(argv[1]);
 
     // Act
     auto t1 = std::chrono::high_resolution_clock::now();

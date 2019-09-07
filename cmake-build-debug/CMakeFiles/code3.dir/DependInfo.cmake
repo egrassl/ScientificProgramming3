@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/NumericCalc/MonteCarlo.cpp" "C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/cmake-build-debug/CMakeFiles/code3.dir/NumericCalc/MonteCarlo.cpp.obj"
-  "C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/main.cpp" "C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/cmake-build-debug/CMakeFiles/code3.dir/main.cpp.obj"
+  "/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/NumericCalc/MonteCarlo.cpp" "/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/cmake-build-debug/CMakeFiles/code3.dir/NumericCalc/MonteCarlo.cpp.o"
+  "/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/main.cpp" "/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/cmake-build-debug/CMakeFiles/code3.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

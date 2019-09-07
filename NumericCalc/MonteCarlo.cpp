@@ -2,9 +2,10 @@
 // Created by Coala on 9/6/2019.
 //
 
-#include "MonteCarlo.h"
+#include "MonteCarlo.hpp"
 #include <random>
 #include <ctime>
+#include <iostream>
 
 double MonteCarlo::Integrate(double (*f)(std::vector<double>), const std::vector<double>& initial,
         const std::vector<double>& final, int n) {
@@ -37,7 +38,8 @@ double MonteCarlo::Integrate(double (*f)(std::vector<double>), const std::vector
 
     std::vector<double> point(dimensions);
 
-    #pragma omp parallel for private(point) reduction(+:sum)
+    // Calculates sum of all random points function values
+    #pragma omp parallel for firstprivate(point) reduction(+:sum)
     for(int i = 0; i < n; i++){
         // Gets the point variable
         for(int d = 0; d < dimensions; d++)

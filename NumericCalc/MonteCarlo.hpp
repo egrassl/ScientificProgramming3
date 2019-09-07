@@ -2,8 +2,8 @@
 // Created by Coala on 9/6/2019.
 //
 
-#ifndef CODE3_MONTECARLO_H
-#define CODE3_MONTECARLO_H
+#ifndef CODE3_MONTECARLO_HPP
+#define CODE3_MONTECARLO_HPP
 
 #include <vector>
 
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //CODE3_MONTECARLO_H
+#endif //CODE3_MONTECARLO_HPP

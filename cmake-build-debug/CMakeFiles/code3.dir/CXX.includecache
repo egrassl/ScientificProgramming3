@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/NumericCalc/MonteCarlo.h
-vector
+/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/NumericCalc/MonteCarlo.cpp
+MonteCarlo.hpp
+/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/NumericCalc/MonteCarlo.hpp
+random
 -
-
-C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/main.cpp
+ctime
+-
 iostream
 -
+
+/Users/coala/Documents/Estudos/Mestrado/ScientificProgramming/code3/NumericCalc/MonteCarlo.hpp
 vector
--
-cmath
--
-NumericCalc/MonteCarlo.h
-C:/Users/Coala/Desktop/mestrado/materias/ScientificProgramming/code3/NumericCalc/MonteCarlo.h
-chrono
 -
 
